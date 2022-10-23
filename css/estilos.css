@@ -121,9 +121,9 @@ i {
 
 .cta {
     display: inline-block;
-    background-color: #2091F9;
+    background-color: #ffffff;
     justify-self: center;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
@@ -252,6 +252,11 @@ i {
     color: var(--color-price);
 }
 
+.price__pricee{
+    font-size: 1.5rem;
+    color: var(--color-price);
+}
+
 .price__items{
     margin-top: 35px;
     display: grid;
@@ -263,6 +268,17 @@ i {
 }
 
 .price__cta{
+    display: block;
+    padding: 20px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--bg-cta);
+    font-weight: 600;
+    color: var(--color-cta);
+    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+}
+
+.price__ctaaa{
     display: block;
     padding: 20px 0;
     border-radius: 10px;
